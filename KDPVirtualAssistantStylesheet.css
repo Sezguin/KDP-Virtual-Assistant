@@ -1,7 +1,7 @@
 body {
     font: 13px "Quicksand", sans-serif;
     background-image: url("Images/Background\ Texture.png");
-    background-repeat: repeat;    
+    background-repeat: repeat;
 }
 
 #homePageNavigationBar {
@@ -34,9 +34,19 @@ body {
 }
 
 #homePageNavigationBarElement:hover {
-
     animation-name: zoomIn;
     animation-duration: 5s;
+}
+
+#homePageNavigationBarBottom {
+    background-color: rgb(61, 49, 91);
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+#homePageNavigationBarBottomHeader {
+    align-items: center;
 }
 
 #homePageTitleJumbotron {
@@ -83,6 +93,15 @@ body {
 #KDPVALogo {
     height: 300px;
     width: 300px;
+}
+
+#KDPVALogoNavigationBarBottom {
+    height: 50px;
+    width: 50px;
+}
+
+#cookiePolicyLink {
+  text-align: centre;
 }
 
 @keyframes zoomIn {
