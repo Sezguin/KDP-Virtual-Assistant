@@ -1,0 +1,106 @@
+body {
+    font: 13px "Quicksand", sans-serif;
+    background-image: url("Images/Background\ Texture.png");
+    background-repeat: repeat;    
+}
+
+#homePageNavigationBar {
+    background-color: rgb(61, 49, 91);
+}
+
+#homePageNavigationBarHeader:hover {
+
+}
+
+#homePageNavigationBarHeaderText {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin: 10px;
+}
+
+#homePageNavigationBarElement {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+#homePageNavigationBarElementFocused {
+    color: rgb(212, 212, 212);
+    background-color: #47396B;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#homePageNavigationBarElement:hover {
+
+    animation-name: zoomIn;
+    animation-duration: 5s;
+}
+
+#homePageTitleJumbotron {
+    color: rgb(61, 49, 91);
+    background-image: url("Images/Background\ Texture.png");
+    background-repeat: repeat;
+    margin: 0px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+
+#homePageTitleJumbotronLine {
+    border-color: rgb(61, 49, 91);
+}
+
+#homePageTitleJumbotronContainer {
+    text-align: center;
+}
+
+#homePageTitleText {
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 20px;
+    animation-name: fadeInDown;
+    animation-duration: 2s
+}
+
+#homePageSubTitleText {
+    text-align: center;
+    font-size: 40px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+
+#homePageMainContentContainer {
+    width: 100%;
+    margin: 50px 0px;
+    text-align: center;
+    animation-name: zoomIn;
+    animation-duration: 4s;
+    font-size: 20px;
+}
+
+#KDPVALogo {
+    height: 300px;
+    width: 300px;
+}
+
+@keyframes zoomIn {
+    from {
+      transform: scale3d(1.2, 1.2, 1.2);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
