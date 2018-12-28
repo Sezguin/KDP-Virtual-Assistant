@@ -8,10 +8,6 @@ body {
     background-color: rgb(61, 49, 91);
 }
 
-#homePageNavigationBarHeader:hover {
-
-}
-
 #homePageNavigationBarHeaderText {
     color: rgb(255, 255, 255);
     font-size: 36px;
@@ -40,13 +36,9 @@ body {
 
 #homePageNavigationBarBottom {
     background-color: rgb(61, 49, 91);
-    height: 60px;
-    padding: 5px;
-    text-align: center;
-}
-
-#homePageNavigationBarBottomHeader {
-    align-items: center;
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #homePageTitleJumbotron {
@@ -101,7 +93,29 @@ body {
 }
 
 #cookiePolicyLink {
-  text-align: centre;
+  color: rgb(212, 212, 212);
+  font-size: 22px;
+  margin: 30px;
+}
+
+#cookiePolicyLink:hover {
+  animation-name: zoomIn;
+  animation-duration: 5s;
+}
+
+#privacyPolicyLink {
+  color: rgb(212, 212, 212);
+  font-size: 22px;
+  margin: 30px;
+}
+
+#privacyPolicyLink:hover {
+  animation-name: zoomIn;
+  animation-duration: 5s;
+}
+
+#cookieAndPrivacyPolicyMainContainer {
+    text-align: center;
 }
 
 @keyframes zoomIn {
